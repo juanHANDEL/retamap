@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+<style>
+body{
+	padding: 0 0 0 0;
+}
+.container{									/* Marco de la página donde estan todos los elementos*/
+	background-color: #e2dbbe;
+	width: 70rem;
+	margin: 0px auto 0px auto;
+	padding-top: 0;
+	padding-bottom: 0rem;
+}
+.menu{
+	background-color: black;
+	color: width;
+	display: grid;
+	color: white;
+	padding: 0.4rem 0 0.4rem 0rem;
+	position: fixed;
+	grid-template-columns: 10rem 10rem 10rem;
+}
+header{								/* Donde se observa el nombre dl grupo*/
+	text-align: center;
+	background-color: #565254;
+	padding: 10rem 0 10rem 0;
+	font-family: 'Shippori Mincho B1';
+	color: #e2dbbe;
+	/*background-image: url("https://images.adsttc.com/media/images/5ad5/d8e5/f197/ccc2/b400/0603/slideshow/Europe-section_2016.jpg?1523964125");*/
+	}
+	
+.cita {
+	padding: 5rem 1rem 5rem 1rem;
+	text-align: center;
+}
+.contenedorObjetivos{
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+}
+.cajaObjetivos{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 10rem;
+	/*border: 0.025rem solid;
+	border-radius: 8%;
+	box-shadow: 0.5rem 0.5rem 0.4rem black;
+	background-color: #8B95C9;*/
+	margin: 4rem 5rem 4rem 5rem;
+	text-align: center;
+}
+.cajaObjetivos:hover{
+	animation-name: colorTexto;
+	animation-duration: 1s;
+}
+@keyframes colorTexto{
+	50%{
+		color: gray;
+	}
+	10%{
+		color: white;
+	}
+}
+.objetivos{
+	color: black;
+	font-family: 'Shippori Mincho B1';
+}
+
+.footer{
+	background-color: #565254;
+	padding: 3rem 0 3rem 0;
+	font-family: 'Shippori Mincho B1';
+	color: #e2dbbe;
+}
+h2{
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+hr{
+	border: 1px solid blue;
+}
+</style>
+</head>
+<body>
+<div class = container>
+<div class = menu>
+	<div>
+	Inicio
+	</div>
+	<div>
+	Objetivos
+	</div>
+	<div>
+	Proyectos
+	</div>
+</div>
+<header>
+	<h1>RESTAURACIÓN ECOLÓGICA SISTEMAS DE INFORMACIÓN GEOGRÁFICA <br> Y TELEDETECCIÓN</h1>
+</header>
+<div class = cita><h2><i>"Es el momento de apostarlo todo por la <br>restauración de nuestros ecosistemas"</i></h2></div>
+<hr>
+<h2>
+OBJETIVOS DEL GRUPO
+</h2>
+<div class = contenedorObjetivos>
+	<div class = cajaObjetivos>
+	<h3><i>Investigar, diseñar, <br> evaluar</i></h3>
+	</div>
+	<div class = cajaObjetivos>
+	<h3><i>Apoyar esfuerzos</i></h3>
+	</div>
+	<div class = cajaObjetivos>
+	<h3><i>Optmizar la investigación</i></h3>
+	</div>
+</div>
+<div class = contenedorObjetivos>
+	<div class = cajaObjetivos>
+	<h3><i>Divulgar</i></h3>
+	</div>
+	<div class = cajaObjetivos>
+	<h3><i>Generar espacios de aprendizaje</i></h3>
+	</div>
+</div>
+<div class = footer> asdasd</div>	
+</div>
+</body>
+</html>
